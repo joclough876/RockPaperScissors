@@ -28,25 +28,25 @@ public class RockPaperScissors {
 			result = "It's a draw!!";
 					
 		else if(answer == rock) {
-			if(response == paper) result = "You win! Paper covers rock";
+			if(response == paper) result = "You win! Paper covers Rock";
 			
 			else if (response == scissors)
 			
-				result = "You lose! Rock smashes scissors";
+				result = "You lose! Rock smashes Scissors";
 				}
 		else if(answer == paper) {
-			if(response == rock) result = "You lose! Paper covers rock";
+			if(response == rock) result = "You lose! Paper covers Rock";
 			
 			else if (response == scissors)
 			
-				result = "You win! Scissors cut paper";
+				result = "You win! Scissors cut Paper";
 				}
 		else if(answer == scissors) {
-			if(response == rock) result = "You win! Rock smashes scissors";
+			if(response == rock) result = "You win! Rock smashes Scissors";
 			
 			else if (response == paper)
 			
-				result = "You lose! Scissors cut paper";
+				result = "You lose! Scissors cut Paper";
 				}
 		else  {
 			

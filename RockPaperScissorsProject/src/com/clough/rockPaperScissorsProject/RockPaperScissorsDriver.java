@@ -18,7 +18,7 @@ public class RockPaperScissorsDriver {
 		System.out.println("Welcome to the Ultimate Rock Paper Scissors Game!\n");
 		System.out.println("Enter one of the below responses to start the game:\n\n");
 		System.out.println("Rock: 0\n\nPaper: 1\n\nScissors: 2\n\n");
-		System.out.println("To exit: 5\n");
+		System.out.println("Hit any other key to exit.\n");
 		
 		try {
 		do {
@@ -35,10 +35,6 @@ public class RockPaperScissorsDriver {
 		case 2:
 			choice = "Scissors";
 			break;
-		case 5:
-			choice = "Game over";
-			System.out.println(choice);
-			System.exit(0);
 		default:
 			System.out.println("Invalid entry please try again");
 			System.exit(0);
