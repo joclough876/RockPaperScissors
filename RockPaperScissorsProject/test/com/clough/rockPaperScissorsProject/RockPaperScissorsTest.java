@@ -50,7 +50,7 @@ class RockPaperScissorsTest {
 	
 	@Test
 	@Order(5)
-	void rockPaperScissors_GivenNoParameters_ShouldGetWinnerFromResponses() {
+	void rockPaperScissors_GivenTwoParameters_ShouldGetResultFromResponses() {
 		assertTrue(rps.getResult(0, 1) instanceof String);
 		//System.out.println(rps.getResult());
 	}
